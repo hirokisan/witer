@@ -2,3 +2,5 @@
 [![test](https://github.com/hirokisan/witer/actions/workflows/test.yml/badge.svg)](https://github.com/hirokisan/witer/actions/workflows/test.yml)
 
 # witer
+
+witer is a wrapper around Go's iter package, designed to simplify and extend its functionality for more convenient iteration handling.
