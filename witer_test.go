@@ -8,7 +8,7 @@ import (
 	"github.com/test-go/testify/assert"
 )
 
-func TestIter(t *testing.T) {
+func Test_witer(t *testing.T) {
 	t.Run("filter", func(t *testing.T) {
 		iter := witer.New(slices.Values([]int64{1, 2, 3}))
 		got := iter.Filter(func(v int64) bool {
